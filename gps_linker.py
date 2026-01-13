@@ -3,6 +3,12 @@
 GPS Linker - Fotoğraflardan GPS bilgilerini çıkarır ve harita linkleri oluşturur
 """
 
+
+__version__ = "1.0.0"
+__author__ = "Usama Kanjo"
+__email__ = "m.osama.kanjo2007@gmail.com"
+
+
 import subprocess
 import sys
 import os
