@@ -1,26 +1,24 @@
-# GPS Linker - Gereksinimler
-# Sistem bağımlılıkları (kurulum gerektirir):
+# GPS Linker - Sistem Gereksinimleri
 
-# Zorunlu Sistem Paketleri:
-# Debian/Ubuntu:
-#   sudo apt install libimage-exiftool-perl python3
+## Zorunlu Sistem Paketleri:
+
+# Linux (Debian/Ubuntu):
+# sudo apt install libimage-exiftool-perl python3
+
+# Linux (Arch):
+# sudo pacman -S perl-image-exiftool python
 
 # macOS:
-#   brew install exiftool
+# brew install exiftool
 
-# Python bağımlılıkları (pip ile kurulur):
-# Bu araç herhangi bir Python paketi gerektirmez,
-# ancak geliştirme için tavsiye edilenler:
+# Windows (WSL):
+# Ubuntu üzerinden yukarıdaki gibi
 
-# Geliştirme için (isteğe bağlı):
+## Python Gereksinimleri:
+# Python 3.6 veya üzeri
+# Hiçbir ek Python paketi gerekmez
+
+## Test/Geliştirme (isteğe bağlı):
+# pytest>=7.0.0
 # black>=23.0.0
 # flake8>=6.0.0
-# pytest>=7.0.0
-
-# Not: GPS Linker, Python standart kütüphanesi dışında
-# herhangi bir bağımlılık gerektirmez.
-
-# Test etmek için:
-# python3 -m venv venv
-# source venv/bin/activate
-# pip install -e .
