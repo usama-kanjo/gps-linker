@@ -1,6 +1,3 @@
-Harika! İşte İngilizce README versiyonu:
-
-```markdown
 # 📍 GPS Linker
 
 **Extracts GPS data from photos and creates instant links for 10+ map services!**
