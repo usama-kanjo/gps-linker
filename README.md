@@ -17,10 +17,10 @@
 
   <div style="margin: 20px 0;">
     <a href="docs/README_TR.md" style="text-decoration: none; margin: 10px;">
-      <img src="https://img.shields.io/badge/🇹🇷_TÜRKÇE-Tıklayın-blue?style=for-the-badge&logo=google-translate" alt="Türkçe">
-    </a>
+      Türkçe           
+    </a> •
     <a href="docs/README_EN.md" style="text-decoration: none; margin: 10px;">
-      <img src="https://img.shields.io/badge/🇺🇸_ENGLISH-Click_here-red?style=for-the-badge&logo=google-translate" alt="English">
+      English
     </a>
   </div>
 
