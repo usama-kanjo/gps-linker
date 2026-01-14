@@ -227,7 +227,7 @@ def main():
         description=f'{Icons.CAMERA} GPS Linker - Fotoğraflardan GPS bilgilerini çıkarır',
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog=f'''
-{Kullanım Örnekleri:}
+ Kullanım Örnekleri:
   {Colors.CYAN}gps_linker fotoğraf.jpg{Colors.END}          - Tek fotoğraf işle
   {Colors.CYAN}gps_linker -l{Colors.END}                   - Sadece linkleri göster
   {Colors.CYAN}gps_linker -q{Colors.END}                   - Sadece koordinatları göster
